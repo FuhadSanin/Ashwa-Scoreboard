@@ -13,7 +13,7 @@ const App = () => {
       className="mySwiper"
       slidesPerView={1}
       autoplay={{
-        delay: 3000,
+        delay: 100000,
         disableOnInteraction: false,
       }}
       pagination={{ clickable: true }}
@@ -35,9 +35,11 @@ const App = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <Fixture />
+        <Fixture/>
       </SwiperSlide>
     </Swiper>
+    
+
   )
 }
 
