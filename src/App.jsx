@@ -19,7 +19,7 @@ const App = () => {
       }}
       pagination={{ clickable: true }}
     >
-      {/* <SwiperSlide>
+      <SwiperSlide>
         <Scoreboard />
       </SwiperSlide>
       <SwiperSlide>
@@ -37,7 +37,7 @@ const App = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Fixture />
-      </SwiperSlide> */}
+      </SwiperSlide>
       <SwiperSlide>
         <Winners />
       </SwiperSlide>
