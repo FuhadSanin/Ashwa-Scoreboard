@@ -35,11 +35,9 @@ const App = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <Fixture/>
+        <Fixture />
       </SwiperSlide>
     </Swiper>
-    
-
   )
 }
 
