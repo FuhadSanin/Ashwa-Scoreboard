@@ -6,7 +6,7 @@
   align-items: center;
 }
 #fixture .container {
-  width: 45%;
+  width: fit-content;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 #fixture .logo {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: -70px;
   padding: 0;
   width: 150px;
   height: 150px;
@@ -33,12 +33,12 @@
   line-height: normal;
   letter-spacing: 8.331px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: -70px;
 }
 #fixture .all {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 #fixture .date {
   display: flex;
@@ -54,6 +54,7 @@
   font-size: 15px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+  margin-top: -70px;
 }
 
 #fixture .item {
@@ -147,4 +148,5 @@
 }
 #fixture .fixture-list {
   height: fit-content;
+  margin-top: -70px;
 }

@@ -20,7 +20,7 @@ const Scoreboard = () => {
   )
 
   return (
-    <div id="scoreboard" >
+    <div id="scoreboard">
       <img height={150} width={150} src={ashwa} alt="Ashwa" />
       <div className="container">
         {sortedTeams.map((data, index) => (
