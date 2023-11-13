@@ -20,7 +20,9 @@ const Fixture = () => {
         <div className="fixture-list">
           <Row
             title="Volleyball"
+            roundno="Round 1"
             time="11:30"
+            venue="open court"
             left_team="GREEN"
             left_color="#4DB657"
             right_team="YELLOW"
@@ -28,7 +30,9 @@ const Fixture = () => {
           />
           <Row
             title="Cricket"
+            roundno="Round 1"
             time="12:30"
+            venue="open court"
             left_team="BLUE"
             left_color="#3A71C4"
             right_team="RED"
@@ -36,20 +40,24 @@ const Fixture = () => {
           />
           <Row
             title="Football"
+            roundno="Round 1"
             time="10:30"
+            venue="open court"
             left_team="RED"
             left_color="#F3594D"
             right_team="GREEN"
             right_color="#4DB657"
           />
           <Row
-            title="Basketball"
+            title="Basketball-"
+            roundno="Round 1"
             time="11:30"
+            venue="open court"
             left_team="GREEN"
             left_color="#4DB657"
             right_team="YELLOW"
             right_color="#DBD355"
-          />
+          /> 
         </div>
       </div>
     </d>
