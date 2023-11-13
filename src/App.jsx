@@ -1,10 +1,11 @@
 import React from "react"
-import Scoreboard from "../components/Scoreboard/Scoreboard"
+import ashwa from "../assets/color-ashwa.png"
+import { Scoreboard, Fixture, Winners } from "../components"
+
+//Swiper
 import "swiper/swiper-bundle.min.css"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination, Autoplay } from "swiper"
-import Fixture from "../components/Fixture/Fixture"
-import ashwa from "../assets/color-ashwa.png"
 
 const App = () => {
   return (
@@ -35,11 +36,12 @@ const App = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <Fixture/>
+        <Fixture />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Winners />
       </SwiperSlide>
     </Swiper>
-    
-
   )
 }
 
