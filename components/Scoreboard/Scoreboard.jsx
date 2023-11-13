@@ -2,9 +2,11 @@ import React from "react"
 import "./Scoreboard.css"
 import Board from "./Board"
 import ashwa from "../../assets/ashwa.png"
+import proddec from "../../assets/proddec.png"
 const Scoreboard = () => {
   return (
     <div id="scoreboard">
+      <img className="proddec" width={150} height={150} src={proddec} alt="" />
       <img height={150} width={150} src={ashwa} alt="Ashwa" />
       <div className="container">
         <Board rank="1" team="Red" title="#F3594D" points="#FF756B" />
