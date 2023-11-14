@@ -1,9 +1,10 @@
 import React from "react"
 import "./Scoreboard.css"
 import Board from "./Board"
-import ashwa from "../../assets/color-ashwa.png"
+
+import ashwa from "../../assets/ashwa.png"
+import proddec from "../../assets/proddec.png"
 import scoreboard_data from "../../constants"
-import bg from "../../assets/bg.png"
 const Scoreboard = () => {
   // Calculate the sum of sub_points for each team
   const teamsWithTotalSubPoints = scoreboard_data.map(team => {
@@ -21,6 +22,7 @@ const Scoreboard = () => {
 
   return (
     <div id="scoreboard">
+      <img className="proddec" width={150} height={150} src={proddec} alt="" />
       <img height={150} width={150} src={ashwa} alt="Ashwa" />
       <div className="container">
         {sortedTeams.map((data, index) => (

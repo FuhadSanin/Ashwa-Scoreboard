@@ -1,12 +1,13 @@
 import React from "react";
 import "./Fixture.css";
 import ashwa from "../../assets/color-ashwa.png";
-import illus from "../../assets/Football Player.gif";
 import Row from "./Row";
+import proddec from "../../assets/proddec.png";
 
 const Fixture = () => {
   return (
     <d id="fixture">
+      <img className="proddec" width={150} height={150} src={proddec} alt="" />
       <div className="container">
         <div className="logo">
           <img src={ashwa} alt="" />
@@ -57,7 +58,57 @@ const Fixture = () => {
             left_color="#4DB657"
             right_team="YELLOW"
             right_color="#DBD355"
-          /> 
+          />
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />{" "}
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />{" "}
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />
         </div>
       </div>
     </d>

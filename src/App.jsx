@@ -1,11 +1,11 @@
-import React from "react"
-import ashwa from "../assets/color-ashwa.png"
-import { Scoreboard, Fixture, Winners } from "../components"
+import React from "react";
+import ashwa from "../assets/color-ashwa.png";
+import { Scoreboard, Fixture, Winners } from "../components";
 
 //Swiper
-import "swiper/swiper-bundle.min.css"
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Navigation, Pagination, Autoplay } from "swiper"
+import "swiper/swiper-bundle.min.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper";
 
 const App = () => {
   return (
@@ -30,19 +30,20 @@ const App = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            overflow: "hidden",
           }}
         >
-          <img height={1000} width={1000} src={ashwa} alt="ashwa" />
+          <img height={400} width={400} src={ashwa} alt="ashwa" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <Fixture />
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <Winners />
-      </SwiperSlide>
+      </SwiperSlide> */}
     </Swiper>
-  )
-}
+  );
+};
 
-export default App
+export default App;
