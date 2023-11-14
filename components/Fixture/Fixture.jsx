@@ -59,6 +59,56 @@ const Fixture = () => {
             right_team="YELLOW"
             right_color="#DBD355"
           />
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />{" "}
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />{" "}
+          <Row
+            title="Basketball-"
+            roundno="Round 1"
+            time="11:30"
+            venue="open court"
+            left_team="GREEN"
+            left_color="#4DB657"
+            right_team="YELLOW"
+            right_color="#DBD355"
+          />
         </div>
       </div>
     </d>

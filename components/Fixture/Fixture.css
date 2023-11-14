@@ -6,21 +6,18 @@
   align-items: center;
 }
 #fixture .container {
-  width: 55%;
+  width: fit-content;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 #fixture .logo {
   display: flex;
-
   justify-content: center;
   width: 150px;
   height: 150px;
-  margin-top: -149px;
+  margin-top:85px;
   object-fit: cover;
-
-
 }
 #fixture img {
   height: 100%;
@@ -34,9 +31,8 @@
   height: auto;
 }
 #fixture .head {
-
-  margin-bottom: 5px;
-  margin-top: -38px;
+  margin-bottom: 68px;
+  margin-top: -45px;
   color: #e2b52d;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -45,8 +41,6 @@
   line-height: normal;
   letter-spacing: 8.331px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
-
 }
 #fixture .all {
   display: flex;
@@ -165,11 +159,87 @@
 
 }
 #fixture .fixture-list {
-  margin-bottom: -75px;
-  margin-top: 8px;
-  height: 500px;
-  width: 650px;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-bottom: -11px;
+  margin-top: 12px;
+  height: 665px;
+  width: fit-content;
 }
 #fixture .team {
   margin-top: 35px;
+}
+::-webkit-scrollbar {
+  width: 5px; /* width of the vertical scrollbar */
+  height: 8px; /* height of the horizontal scrollbar */
+}
+@media only screen and (max-width: 1100px){
+  #fixture {
+    height: 100%;
+  }
+  #fixture .container{
+    width: 150%;
+    height: auto;
+  }
+  #fixture .head {
+    margin-bottom: 61px;
+    margin-top: -26px;
+    font-size: 50px;
+  }
+  #fixture .logo {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin-top: -11px;
+    object-fit: cover;
+  }
+  #fixture .date {
+    height: 43px;
+    width: 289px;
+    font-size: 13px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5);
+    margin-top: -70px;
+  }
+  #fixture .time{
+    width: 100px;
+  }
+  #fixture .time .round {
+    width: 100px;
+    letter-spacing: 4px;
+  }
+  #fixture .ta {
+    width: 122px;
+  }
+  #fixture .tb {
+    width: 122px;
+  }
+  #fixture .fixture-list {
+    padding-bottom: 50px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  #fixture .ta h1{
+    font-size: 20px;
+  }
+  #fixture .tb h1{
+    font-size: 20px;
+  }
+  #fixture .time h1 {
+    font-size: 15px;
+    
+  }
+  #fixture .time .ven {
+    font-size: 15px;
+  }
+  #fixture .proddec {
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: auto;
+}
+
 }
